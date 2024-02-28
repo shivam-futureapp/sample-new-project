@@ -5,4 +5,4 @@ set -e
 docker pull himanshu712/new_app
 
 # Run the Docker image as a container
-docker run -dit -p 5000:5000 docker pull himanshu712/new_app
+docker run -dit -p 5000:5000 docker pull himanshu712/new_app 
