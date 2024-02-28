@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-echo
+docker pull himanshu712/new_app
 
 # Run the Docker image as a container
-echo
+docker run -dit -p 5000:5000 docker pull himanshu712/new_app
